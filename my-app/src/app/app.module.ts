@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { BusinessComponent } from './business/business.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiserviceService } from './service/apiservice.service';
+import { TechnewsComponent } from './technews/technews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BusinessComponent
+    BusinessComponent,
+    TechnewsComponent
   ],
   imports: [
     BrowserModule,
